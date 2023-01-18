@@ -1,0 +1,23 @@
+.container{
+ background-color: red;
+
+
+
+}
+
+
+
+.tegnologias{
+margin: 30px;
+padding: 30px;
+
+justify-content: center;
+
+background-color: black;
+
+}
+.img{
+border-radius: 50%;
+/* padding: auto; */
+
+}
