@@ -1,23 +1,47 @@
+.total{
+background-color:aquamarine;
+align-items: center;
+}
+
+
 .container{
  background-color: red;
+    display: flex;
+}
 
+.foto{
 
-
+    height:150px;
+     width:150px;
+     border-radius: 50%;
+     position: relative;
 }
 
 
-
-.tegnologias{
+.tecnologias{
 margin: 30px;
 padding: 30px;
-
 justify-content: center;
-
-background-color: black;
-
+justify-content: space-between;
+background-color: white;
 }
-.img{
+
+.tecnologias img{
 border-radius: 50%;
-/* padding: auto; */
-
+padding: 20px;
+justify-content: center;
 }
+.tecnologias button{
+    border-radius: 100%;
+    padding: -40px;
+    justify-content:baseline;
+    margin: 20px
+ }
+
+ .ocultar{
+    display: none;
+ }
+
+ .mostrar{
+    display: block;
+ }
