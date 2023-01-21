@@ -1,12 +1,49 @@
+:root{
+--bgcolor:#beb8ac;
+--blue:#2fb7fe;
+--black:#3D3F42;
+--white:#f4f7ff;
+--gray:#d8dce4;
+--lightgray:#8e9095;
+}
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: monospace;
+}
+body{
+   background: var(--bgcolor);
+}
+.clearfix{
+   clear:both;
+}
 .total{
-background-color:aquamarine;
-align-items: center;
+width: 800px;
+height: 1000px;
+margin: 100px auto;
+background: var(--white);
+box-shadow: 5px 21px 20px 20px #3d3f4238;
 }
 
 
-.container{
- background-color: red;
-    display: flex;
+.left-section{
+background: var(--black);
+width: 250px;
+height: 1000px;
+float: left;
+}
+.profile{
+   overflow: hidden;
+   position: relative;
+}
+.blue-box{
+   width: 257px;
+   height: 407px;
+   background: var(--blue);
+   margin-left: -100px;
+   transform: rotateZ(48deg);
+   margin-top: -178px;
 }
 
 .foto{
@@ -16,6 +53,13 @@ align-items: center;
      border-radius: 50%;
      position: relative;
 }
+
+.container{
+ background-color: red;
+    display: flex;
+}
+
+
 
 
 .tecnologias{
