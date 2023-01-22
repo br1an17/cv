@@ -121,6 +121,37 @@ body {
    float: left;
    margin-right: 10px;
 }
+.right-section{
+padding: 40px 30px;
+background: var(--white);
+width: 68%;
+float: left;
+height: 1000px ;
+}
+
+
+.right-section img{
+   background: var(--black);
+   width: 36px;
+   padding: 7px;
+   border-radius: 17px;
+   /* float: left; */
+   display: inline-block;
+   margin-top: -6px;
+
+}
+.p2{
+
+margin: 0 auto;
+padding: 2px;
+border-bottom: 1px solid var(--lightgray);
+border-top: 1px solid var(--lightgray);
+text-transform: uppercase;
+font-size: 18px;
+font-weight: bolder;
+margin-left:50px ;
+line-height: 18px;
+}
 
 
 
