@@ -20,7 +20,7 @@ body {
 }
 .total {
   width: 800px;
-  height: 1100px;
+  height: 1000px;
   margin: 100px auto;
   background: var(--white);
   box-shadow: 5px 21px 20px 20px #3d3f4238;
@@ -29,7 +29,7 @@ body {
 .left-section {
   background: var(--black);
   width: 250px;
-  height: 1100px;
+  height: 1000px;
   float: left;
 }
 .profile {
@@ -85,7 +85,7 @@ body {
 }
 
 .info {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .heading {
@@ -95,7 +95,6 @@ body {
   border-bottom: 1px solid var(--gray);
   border-top: 1px solid var(--gray);
   color: var(--gray);
-  margin-top: 11px;
   text-transform: uppercase;
   font-size: 15px;
 }
@@ -151,6 +150,49 @@ font-size: 18px;
 font-weight: bolder;
 margin-left:50px ;
 line-height: 18px;
+}
+.p3{
+margin-top:20px ;
+color: var(--lightgray);
+text-align: justify;
+word-spacing: -4px;
+}
+
+.right{
+width: 75%;
+float: left;
+}
+.lr-box{
+margin-top: 14px;
+margin-bottom: 20px;
+}
+.p4{
+font-size: 14px;
+font-weight: 600;
+}
+.p5{
+  font-size: 12px;
+  color: var(--lightgray);
+}
+
+.s-box{
+  width: 50%;
+  float: left;
+padding:20px 20px 20px 0px;
+}
+#progress{
+  background: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 100%;
+}
+#progress:after{
+content: "";
+display: block;
+background: var(--blue);
+width: 50%;
+height: 100%;
+border-radius: 9px;
 }
 
 
