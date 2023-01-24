@@ -1,3 +1,6 @@
+
+
+
 :root {
   --bgcolor: #beb8ac;
   --blue: #2fb7fe;
@@ -11,6 +14,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: monospace;
+
 }
 body {
   background: var(--bgcolor);
@@ -144,6 +148,9 @@ body {
   float: left;
   height: 1000px;
 }
+.p{
+  font-family: "Poppins";
+}
 
 .right-section img {
   background: var(--black);
@@ -170,6 +177,11 @@ body {
   color: var(--lightgray);
   text-align: justify;
   word-spacing: -4px;
+}
+
+.left{
+  width: 25%;
+  float: left;
 }
 
 .right {
@@ -217,6 +229,7 @@ body {
   width: 68%;
   float: left;
   height: 1000px;
+
 }
 
 .right-section2 img {
@@ -229,10 +242,10 @@ body {
 }
 
 
-.clasico {
+.Aclasico {
   background-color: white;
   color: black;
-  border: 2px solid #5dd6f8;
+  border: 2px solid #ed0f0f;
   margin-top: -10px;
   margin-bottom: 10px;
   width: 100%;
@@ -240,35 +253,22 @@ body {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
-.clasico:hover {
-  background-color: #5dd6f8; 
-  color: black;
+.Aclasico:hover {
+  background-color: #ed0f0f; 
+  color: white;
 }
 
-.tecnologias {
-  margin: 30px;
-  padding: 30px;
-  justify-content: center;
-  justify-content: space-between;
-  background-color: white;
+.blandas{
+  float: right;
+justify-content: center;
+
 }
 
-.tecnologias img {
-  border-radius: 50%;
-  padding: 20px;
-  justify-content: center;
-}
-.tecnologias button {
-  border-radius: 100%;
-  padding: -40px;
-  justify-content: baseline;
-  margin: 20px;
+.tech{
+display: none;
 }
 
-.ocultar {
-  display: none;
-}
-
-.mostrar {
+.clasico{
   display: block;
 }
+
