@@ -154,7 +154,7 @@ margin-left: 400px;
   background: var(--white);
   width: 68%;
   float: left;
-  height: 1000px;
+  height: 1050px;
 }
 /* .p{
   font-family: "Poppins";
@@ -163,7 +163,7 @@ margin-left: 400px;
 .right-section img {
   background: var(--white);
   width: 36px;
-  padding: 7px;
+  padding: 9px;
   border-radius: 17px;
   float: left;
   display: inline-block;
