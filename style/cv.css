@@ -349,6 +349,16 @@ input::before{
     width: 550px;
     background: #252525;
     color: #f2f2f2;
+    
+  }
+  .dark-mode .li{
+    color:var(--white);
+  }
+  .dark-mode .p3{
+    color:var(--white);
+  }
+  .dark-mode .p5{
+    color:var(--white);
   }
 
 /* .luna{
