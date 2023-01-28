@@ -1,6 +1,4 @@
 
-
-
 :root {
   --bgcolor: #beb8ac;
   --blue: #2fb7fe;
@@ -14,7 +12,6 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: monospace;
-
 }
 body {
   background: var(--bgcolor);
@@ -23,13 +20,14 @@ body {
   clear: both;
 }
 .total {
+  /* width: 800px; */
   width: 800px;
+
   height: 1050px;
   margin: 100px auto;
   background: var(--white);
   box-shadow: 5px 21px 20px 20px #3d3f4238;
 }
-
 .left-section {
   background: var(--black);
   width: 250px;
@@ -48,7 +46,6 @@ body {
   transform: rotateZ(48deg);
   margin-top: -178px;
 }
-
 .foto {
   position: absolute;
   z-index: 9;
@@ -60,7 +57,6 @@ body {
   border-radius: 50%;
   border: 3px solid var(--gray);
 }
-
 .name {
   color: var(--gray);
   text-align: center;
@@ -70,11 +66,9 @@ body {
   font-weight: 400;
   text-transform: uppercase;
 }
-
 .name span {
   color: var(--blue);
 }
-
 .n-p {
   width: 180px;
   margin: 0 auto;
@@ -91,7 +85,6 @@ body {
 .info {
   margin-top: 30px;
 }
-
 .heading {
   width: 180px;
   margin: 0 auto;
@@ -130,7 +123,7 @@ body {
   color: black;
   border: 2px solid #5dd6f8; /* Green */
   margin-top: -10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   width: 100%;
   border-radius: 20px;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -209,6 +202,11 @@ margin-left: 400px;
   font-size: 12px;
   color: var(--lightgray);
 }
+.li {
+  margin-left: 20px;
+  font-size: 12px;
+  color: var(--lightgray);
+}
 
 .s-box {
   width: 50%;
@@ -273,7 +271,7 @@ background-color: inherit;
 .Aclasico {
   background-color: white;
   color: black;
-  border: 2px solid #ed0f0f;
+  border: 2px solid #500008;
   margin-top: -10px;
   margin-bottom: 30px;
   width: 100%;
@@ -282,7 +280,7 @@ background-color: inherit;
   transition-duration: 0.4s;
 }
 .Aclasico:hover {
-  background-color: #ed0f0f; 
+  background-color: #500008; 
   color: white;
 }
 
@@ -305,7 +303,7 @@ input[type="checkbox"]{
 position: relative;
 width: 40px;
 height: 20px;
-background-color: #434343 ;
+background-color: #0a0a0a ;
 appearance: none;
 outline: none;
 border-radius: 20px;
@@ -332,24 +330,30 @@ input::before{
   transition: 0.7s ease ;
   }
 
-  /* input[type="checkbox"]::before{
+  input[type="checkbox"]::before{
     content: "";
     position: absolute;
     width: 16px;
     height: 16px;
-    background-color: #17d0da;
+    background-color: #54545b;
     border-radius: 50%;
     top: 2px;
     left: 2px;
     transition: 0.7s ease ;
-    } */
+    }
   input[type="checkbox"]:checked::before{
     transform: translate(20px);
   }
 
   .dark-mode{
+    width: 550px;
     background: #252525;
     color: #f2f2f2;
   }
 
+.luna{
+  margin-bottom: 20px;
+  margin-top: -100px;
+  margin-left: 480px;
 
+}
