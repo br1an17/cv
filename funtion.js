@@ -2,14 +2,14 @@ let imagen = document.getElementById("miImagen");
 let angulo = document.getElementById("angulo");
 let anguloInferior = document.getElementById("anguloI");
 let apellido = document.getElementById("apellido");
-let dark =document.getElementById("dark")
+// let dark =document.getElementById("dark")
 let main_body = document.getElementById("right-section");
 let luna = document.getElementById("luna")
 let luna2 = document.getElementById("luna2")
 let tech = document.getElementById("tech")
 let clasico = document.getElementById("clasico")
 let oficio = document.getElementById("oficio")
-
+let titulo = document.getElementById("p4")
 
 
 function cambiarATech() {
@@ -21,6 +21,7 @@ function cambiarATech() {
   imagen.src = "./img/mias/mia1.jpg";
   apellido.style.color= "#a42500"
   main_body = document.getElementById("right-section2")
+ 
 }
 
 
@@ -35,11 +36,12 @@ function cambiarAClass() {
   angulo.style.background = "#2fb7fe"
   apellido.style.color=  "#2fb7fe"
   main_body = document.getElementById("right-section")
-
+  
 }
 
 function darkMode(){
   main_body.classList.toggle("dark-mode")
+  // titulo.style.color = "#a42500"
 }
 
 
