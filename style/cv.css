@@ -194,10 +194,10 @@ margin-left: 400px;
   margin-top: 14px;
   margin-bottom: 20px;
 }
-.p4 {
+/* .p4 {
   font-size: 14px;
   font-weight: 600;
-}
+} */
 .p5 {
   font-size: 12px;
   color: var(--lightgray);
@@ -366,12 +366,8 @@ input::before{
 color: 
 #a42500;
 }
-/* .red .p4{
 
-color: #a42500;
-
-} */
-.blue{
+.dark-mode.p4 {
  color: #2fb7fe;
 }
 
