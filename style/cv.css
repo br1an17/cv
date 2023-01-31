@@ -297,9 +297,7 @@ display: none;
 .clasico{
   display: block;
 }
-.luna{
-  
-}
+
 
 
 /* input[type="checkbox"]{
@@ -368,6 +366,11 @@ input::before{
 color: 
 #a42500;
 }
+/* .red .p4{
+
+color: #a42500;
+
+} */
 .blue{
  color: #2fb7fe;
 }

@@ -39,9 +39,10 @@ function cambiarAClass() {
   
 }
 
-function darkMode(){
-  main_body.classList.toggle("dark-mode")
-  // titulo.style.color = "#a42500"
-}
+// function darkMode(){
+//   main_body.classList.toggle("dark-mode")
+//   titulo.classList.toggle ("red")
+
+// }
 
 
