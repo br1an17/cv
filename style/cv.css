@@ -121,8 +121,9 @@ body {
   background: white;
   width: 28px;
   height: 30px;
-  padding: 2px;
+  padding: -10px;
   border-radius: 50%;
+
   float: left;
   margin-right: 10px;
 
