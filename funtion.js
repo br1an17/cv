@@ -35,7 +35,7 @@ function cambiarAClass() {
   tech.style.display = "none";
   clasico.style.display = "block";
   oficio.innerText = "DEDICADO Y PERSEVERANTE";
-  imagen.src = "./img/mias/brian.jpg";
+  imagen.src = "./img/mias/20210527_232927.jpg.jpg";
   anguloInferior.style.background = "#3d3f42"
   angulo.style.background = "#2fb7fe"
   apellido.style.color=  "#2fb7fe"
