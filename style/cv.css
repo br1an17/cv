@@ -20,7 +20,7 @@ body {
 }
 .total {
   width: 800px;
-  height: 1050px;
+  height: 1060px;
   margin: 100px auto;
   background: var(--white);
   box-shadow: 5px 11px 10px 10px #2e2f3038;
@@ -28,7 +28,7 @@ body {
 .left-section {
   background: var(--black);
   width: 250px;
-  height: 1050px;
+  height: 1060px;
   float: left;
 }
 .profile {
@@ -160,7 +160,7 @@ body {
   background: var(--white);
   width: 68%;
   float: left;
-  height: 1050px;
+  height: 1060px;
 }
 
 .right-section img {
@@ -244,7 +244,7 @@ body {
   background: var(--white);
   width: 68%;
   float: left;
-  height: 1050px;
+  height: 1060px;
 }
 
 .right-section2 img {
