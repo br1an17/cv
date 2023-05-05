@@ -68,7 +68,6 @@ function cambio2 (){
   }
   
   }
-console.log(titulo.classList)
 
 btn.addEventListener("click",cambio)
 btn2.addEventListener("click",cambio2)
